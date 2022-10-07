@@ -1,0 +1,37 @@
+.xo {
+    width: 1000px;
+    height: 100px;
+    background-color:#e6ecff;
+}
+
+.bo {
+    width: 1000px;
+    height: 200px;
+}
+
+.go {
+    display:  flex;
+}
+
+.cl1{
+    margin-right: 2px;
+    width: 350px;
+    height: 150px;
+    background-color:#7EE5DA;
+
+}
+
+.cl2 {
+    margin-right: 2px;
+    width: 350px;
+    height: 150px;
+    background-color:#7EE5DA;
+
+}
+
+.cl3 {
+    width: 350px;
+    height: 150px;
+    background-color:#7EE5DA;
+
+}
