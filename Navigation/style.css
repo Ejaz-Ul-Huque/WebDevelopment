@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    height: 80px;
+    width: 1080;
+    margin-top: 10px;
+    background-color: #0d0c0c;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    display: flex;
+    margin-left: 10px;
+    color: white;
+}
+
+.c1 {
+    margin-top: 10px;
+    
+}
+
+#b1 {
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 30px;
+    background-color: #282525;
+    color: white;
+}
