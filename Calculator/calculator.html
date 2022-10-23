@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class=" bg-black">
+    <div class=" max-w-7xl mx-auto my-4 flex justify-center items-center bg-gradient-to-br from-yellow-400 via-red-500 to-purple-400 rounded-md h-screen">
+            <div class=" bg-white rounded-md shadow-2xl shadow-rose-400 px-8 py-12">
+                <p class=" font-black uppercase mb-2 w-full text-4xl text-center rounded-md">Calculator</p>
+                <br>
+            
+                <!-- <div class=" flex space-x-4 items-center justify-center  ">
+                    <h4>Input Num:1</h4> <input id="id1"  class=" w-1/5  border rounded-md border-black  px-4 py-2">
+                    <br>
+                    <h4>Input Num:2</h4> <input id="id2"  class=" w-1/5  border rounded-md border-black  px-4 py-2">
+                </div> -->
+
+                <div class=" flex space-x-4 ">
+                    <input id="i1" value="0" class=" w-1/2 border-gray-400 border rounded-md  px-4 py-2">
+                    <input id="i2" value="0" class=" w-1/2 border-gray-400 border rounded-md  px-4 py-2">
+                </div>
+
+                <br>
+                <div class=" flex space-x-4 items-center justify-center ">
+                    <h4>Result :</h4> <input id="i3" value="0" class=" w-1/2  border rounded-md border-blue-500  px-4 py-2">
+                </div>
+                <div class="grid grid-cols-4 gap-4 mt-8">
+                    <div class=" border text-center border-black hover:shadow shadow-xl rounded-lg px-4 py-2 font-semibold hover:bg-black hover:text-white cursor-pointer">
+                        <buttons onclick="handler(add)">
+                                Add
+                        </buttons>
+                    </div>
+                    <div class=" border text-center border-black hover:shadow shadow-xl rounded-lg px-4 py-2 font-semibold hover:bg-black hover:text-white cursor-pointer">
+                        <buttons onclick="handler(sub)">
+                            Substract
+                        </buttons>
+                    </div>
+                    <div class=" border text-center border-black hover:shadow shadow-xl rounded-lg px-4 py-2 font-semibold hover:bg-black hover:text-white cursor-pointer">
+                        <buttons onclick="handler(rem)">
+                            Remainder
+                        </buttons>
+                    </div>
+                    <div class=" border text-center border-black hover:shadow text-black  shadow-xl rounded-lg px-4 py-2 font-semibold flex justify-center items-center row-span-2 hover:bg-red-700 hover:text-white cursor-pointer">
+                        <buttons  onclick="handler(reset)">
+                            Reset
+                        </buttons>
+                    </div>
+                    <div class=" border text-center border-black hover:shadow shadow-xl rounded-lg px-4 py-2 font-semibold hover:bg-black hover:text-white cursor-pointer">
+                        <buttons onclick="handler(mutiply)">
+                            Multiply
+                        </buttons>
+                    </div>
+                    <div class=" border text-center border-black hover:shadow shadow-xl rounded-lg px-4 py-2 font-semibold hover:bg-black hover:text-white cursor-pointer">
+                        <buttons onclick="handler(div)">
+                            Divide
+                        </buttons>
+                    </div>
+                    <div class=" border text-center border-black hover:shadow shadow-xl rounded-lg px-4 py-2 font-semibold hover:bg-black hover:text-white cursor-pointer">
+                        <buttons onclick="handler(avg)">
+                            Average
+                        </buttons>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    <script src="/Calculator/calculator.js" >
+    </script>
+</body>
+</html>
